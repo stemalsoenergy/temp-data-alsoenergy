@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(-50deg, #888 20%, #387 40%, #444 75%, #333 75%);
+}
+img{
+    display: block;
+    overflow: hidden;
+}
+.figure-2 img {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 250px;
+    height: 120px;
+}
+.figure-1 img{
+    position: absolute;
+    top:3%;
+    right: 4%;
+    width: 200px;
+    height: 100px;
+}
+ .h-1 {
+    position: absolute;
+    top: 50px;
+    font-size: 4.5rem;
+    font-weight: 1000;
+    /* background-image:url('../images/waves.jpg');
+    -webkit-background-clip: text; */
+    color: white;
+    background-size:cover;
+
+}
+.section-1{  
+    position: absolute;
+    top:35%;
+  width: 35%;
+  height: 50vh;
+  border:2px solid white;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+justify-content: space-evenly;
+}
+
+:is(.div-1,.div-2,.div-3){
+    width:80%;
+    height: 13vh;
+    position: relative;
+    border:1px solid white;
+    display: flex;
+   justify-content: space-around;
+}
+
+:is(.para-1,.para-2,.para-3){
+    position: absolute;
+    top:5px;
+    left:0px;
+    padding:20px;
+    font-size:1.2rem;
+    font-weight: 600;
+}
+:is(.btn1,.btn2,.btn3){
+    position: absolute;
+    top:16px;
+    right:10px;
+    padding: 10px;
+    height: 40px;
+    background-color:#0047ab;
+    color: white;
+    border:none;
+    font-weight: 500;
+    border-radius: 10px;
+}
